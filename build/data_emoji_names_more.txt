@@ -481,3 +481,30 @@
 # missing from apple images
 23CF;eject
 
+# regional indicators
+1f1e6;regional-indicator-symbol-letter-a
+1f1e7;regional-indicator-symbol-letter-b
+1f1e8;regional-indicator-symbol-letter-c
+1f1e9;regional-indicator-symbol-letter-d
+1f1ea;regional-indicator-symbol-letter-e
+1f1eb;regional-indicator-symbol-letter-f
+1f1ec;regional-indicator-symbol-letter-g
+1f1ed;regional-indicator-symbol-letter-h
+1f1ee;regional-indicator-symbol-letter-i
+1f1ef;regional-indicator-symbol-letter-j
+1f1f0;regional-indicator-symbol-letter-k
+1f1f1;regional-indicator-symbol-letter-l
+1f1f2;regional-indicator-symbol-letter-m
+1f1f3;regional-indicator-symbol-letter-n
+1f1f4;regional-indicator-symbol-letter-o
+1f1f5;regional-indicator-symbol-letter-p
+1f1f6;regional-indicator-symbol-letter-q
+1f1f7;regional-indicator-symbol-letter-r
+1f1f8;regional-indicator-symbol-letter-s
+1f1f9;regional-indicator-symbol-letter-t
+1f1fa;regional-indicator-symbol-letter-u
+1f1fb;regional-indicator-symbol-letter-v
+1f1fc;regional-indicator-symbol-letter-w
+1f1fd;regional-indicator-symbol-letter-x
+1f1fe;regional-indicator-symbol-letter-y
+1f1ff;regional-indicator-symbol-letter-z

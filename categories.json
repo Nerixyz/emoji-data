@@ -2127,6 +2127,34 @@
             "flag-england",
             "flag-scotland",
             "flag-wales"
+        ],
+        "region-indicator": [
+            "regional-indicator-symbol-letter-a",
+            "regional-indicator-symbol-letter-b",
+            "regional-indicator-symbol-letter-c",
+            "regional-indicator-symbol-letter-d",
+            "regional-indicator-symbol-letter-e",
+            "regional-indicator-symbol-letter-f",
+            "regional-indicator-symbol-letter-g",
+            "regional-indicator-symbol-letter-h",
+            "regional-indicator-symbol-letter-i",
+            "regional-indicator-symbol-letter-j",
+            "regional-indicator-symbol-letter-k",
+            "regional-indicator-symbol-letter-l",
+            "regional-indicator-symbol-letter-m",
+            "regional-indicator-symbol-letter-n",
+            "regional-indicator-symbol-letter-o",
+            "regional-indicator-symbol-letter-p",
+            "regional-indicator-symbol-letter-q",
+            "regional-indicator-symbol-letter-r",
+            "regional-indicator-symbol-letter-s",
+            "regional-indicator-symbol-letter-t",
+            "regional-indicator-symbol-letter-u",
+            "regional-indicator-symbol-letter-v",
+            "regional-indicator-symbol-letter-w",
+            "regional-indicator-symbol-letter-x",
+            "regional-indicator-symbol-letter-y",
+            "regional-indicator-symbol-letter-z"
         ]
     }
 }

@@ -103,6 +103,12 @@
 		}
 	}
 
+	for ($cp = 0; $cp < 26; $cp++) {
+		$hex_low = sprintf('%04x', $cp + 0x1f1e6);
+		$category_map[$hex_low] = array("Flags", $p);
+		$subcategory_map[$hex_low] = array("region-indicator", $p);
+	}
+
 	# patch in some CPs missing from the data file
 	$qualified_map['0023-20e3'] = '0023-fe0f-20e3';
 	$qualified_map['002a-20e3'] = '002a-fe0f-20e3';
@@ -481,9 +487,9 @@
 			if ($cp == 0x0023) continue; # number sign
 			if ($cp == 0x002A) continue; # asterisk
 			if ($cp >= 0x0030 && $cp <= 0x0039) continue; # 0-9
-			if ($cp >= 0x1F1E6 && $cp <= 0x1F1FF) continue; # flag letters
 
-			if ($fields[1] == 'Extended_Pictographic' || $fields[1] == 'Emoji_Component'){
+			if (!($cp >= 0x1F1E6 && $cp <= 0x1F1FF) &&
+				 ($fields[1] == 'Extended_Pictographic' || $fields[1] == 'Emoji_Component')){
 				$GLOBALS['skip_components'][$hex_low] = 1;
 				continue;
 			}
@@ -500,7 +506,7 @@
 		$line = shell_exec("grep -e ^{$hex_up}\\; unicode/UnicodeData.txt");
 		$line = trim($line);
 
-		echo "\nno data for $cp/$hex_low from emoji-data.txt: $fields[0];$fields[1] : $line\n";
+		echo "no data for $hex_low from emoji-data.txt: $line\n";
 	}
 
 	echo "DONE\n";
